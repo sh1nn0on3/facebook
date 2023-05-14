@@ -21,22 +21,22 @@ const TopBarMobile = () => {
         </div>
       </div>
       <div className="flex w-full justify-around items-center text-[18px] ">
-        <button className="w-full border-b focus:border-blue focus:text-blue ">
+        <button className="w-full pb-3 border-b-2 focus:border-blue focus:text-blue ">
           <i className="fa-solid fa-house"></i>
         </button>
-        <button className="w-full border-b focus:border-blue focus:text-blue ">
+        <button className="w-full border-b-2 focus:border-blue pb-3 focus:text-blue ">
           <i className="fa-solid fa-user-group"></i>
         </button>
-        <button className="w-full border-b focus:border-blue focus:text-blue ">
+        <button className="w-full border-b-2 focus:border-blue pb-3 focus:text-blue ">
           <i className="fa-solid fa-message"></i>
         </button>
-        <button className="w-full border-b focus:border-blue focus:text-blue ">
+        <button className="w-full border-b-2 focus:border-blue pb-3 focus:text-blue ">
           <i className="fa-solid fa-clapperboard"></i>
         </button>
-        <button className="w-full border-b focus:border-blue focus:text-blue ">
+        <button className="w-full border-b-2 focus:border-blue pb-3 focus:text-blue ">
           <i className="fa-solid fa-bell"></i>
         </button>
-        <button className="w-full border-b focus:border-blue focus:text-blue ">
+        <button className="w-full border-b-2 focus:border-blue pb-3 focus:text-blue ">
         <i className="fa-solid fa-people-group"></i>
         </button>
       </div>

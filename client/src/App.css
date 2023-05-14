@@ -1,6 +1,26 @@
-* {
+*,
+body {
   /* font-family: "Brygada 1918", serif; */
   /* font-family: "Montserrat", sans-serif; */
   font-family: "Roboto", sans-serif;
   background: "#F0F3F4";
+  /* Thiết lập độ rộng và chiều cao cho scrollbar */
+  
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    /* :hover{
+      width: 8px;
+      height: 8px;
+    } */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #b3b3b3;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+  } 
 }
